@@ -22946,7 +22946,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   JumpForce: {x: 25, y: 31, z: 0}
-  jumpSound: {fileID: 0}
 --- !u!95 &760168431
 Animator:
   serializedVersion: 4
@@ -25893,7 +25892,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   JumpForce: {x: 20, y: 22, z: 0}
-  jumpSound: {fileID: 0}
 --- !u!95 &855512246
 Animator:
   serializedVersion: 4
@@ -26822,7 +26820,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   JumpForce: {x: 20, y: 22, z: 0}
-  jumpSound: {fileID: 0}
 --- !u!95 &876617024
 Animator:
   serializedVersion: 4
@@ -27709,7 +27706,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 569d3831e2541bb418418f56d70741b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  doorSou: {fileID: 0}
 --- !u!65 &897223779
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -42709,7 +42705,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   JumpForce: {x: 20, y: 30, z: 0}
-  jumpSound: {fileID: 0}
 --- !u!95 &1355088082
 Animator:
   serializedVersion: 4
@@ -68180,7 +68175,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 569d3831e2541bb418418f56d70741b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  doorSou: {fileID: 0}
 --- !u!1 &3886168863770679903
 GameObject:
   m_ObjectHideFlags: 0
