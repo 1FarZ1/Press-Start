@@ -2,10 +2,10 @@
 Press Start
 Entraitement and Fun Game That Covers a lot of the Basics Concepts Of Game Development Used in a Workshop Held in Our School (Estin)
 
-image
+image[https://cdn.discordapp.com/attachments/655813037483360276/1075945705551712306/Artboard_2_1.png]
 
 Screenshots
-image
+image[https://cdn.discordapp.com/attachments/655813037483360276/1075946365265395793/game_1.png]
 
 Authors
 @1FarZ1
