@@ -101,6 +101,16 @@ public class GUIController : MonoBehaviour
 
     public void LoadScene(string Scene)
     {
+        Time.timeScale = 1;
         SceneManager.LoadScene(Scene);
+    }
+
+    public void EnableObject(GameObject Object)
+    {
+        Object.SetActive(true);
+    }
+    public void DisableObject(GameObject Object)
+    {
+        Object.SetActive(false);
     }
 }

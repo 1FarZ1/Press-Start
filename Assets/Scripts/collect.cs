@@ -8,7 +8,7 @@ public class collect : MonoBehaviour
         if(other.transform.GetComponent<PlayerController>()){
             PlayerController.Instance.CounterScore += 1;
             Destroy(gameObject);
-            // AudioManager.Instance.PlaySFX("coin");
+            AudioManager.Instance.PlaySFX("coin");
 
         }
     }

@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour
     [HideInInspector]public CharacterController playerCharacter;
 
     [Header("Movements Settings")]
+    public float MaxSpeed;
     public float MoveSpeed;
     public float CrouchSpeed;
     public float JumpForce;
@@ -35,7 +36,7 @@ public class PlayerController : MonoBehaviour
     private void Start()
     {
         playerCharacter = GetComponent<CharacterController>();
-        // AudioManager.Instance.PlaySFX("gameStart");
+        AudioManager.Instance.PlaySFX("Press Start");
     }
     private void Update()
     {
