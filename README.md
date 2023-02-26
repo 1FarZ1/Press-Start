@@ -24,11 +24,8 @@ If you have any feedback, please reach out to us at f_bekkouche@estin.dz
 
 Acknowledgements
 FAQ
-Why install Quizzler
-Quizzler is simple,LightWeight app that give the Users a basic questions on differenet fields and reward them with points and get more Prizes according to their points
-
-Is Quizzler for Everybody ?
-Quizzler cover the majority of people with low or high level, the more Questions You get the more Diffucult it Becomes
+Can We Play it ?
+ Our Workshop Game is Ready to Play and Only Thing That is Left is To Upload into Itch io so Stay Tuned and we will Update You with The Last Informations About its Status
 
 License
 MIT
