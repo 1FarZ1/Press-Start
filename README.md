@@ -17,7 +17,7 @@ Documentation
 Documentation
 
 Installation
-git clone https://github.com/1FarZ1/quizzler.git cd quizzler flutter packages get flutter run
+git clone https://github.com/1FarZ1/WorkShop-Unity.git cd WorkShop-Unity 
 
 Feedback
 If you have any feedback, please reach out to us at f_bekkouche@estin.dz
