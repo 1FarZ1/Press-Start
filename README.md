@@ -8,38 +8,35 @@ Screenshots
 ![image](https://cdn.discordapp.com/attachments/655813037483360276/1075946365265395793/game_1.png)
 
 Authors
-@1FarZ1
-Contributing
-Contributions are always welcome!
+- @1FarZ1
+- Contributing
+- Contributions are always welcome!
 
-Documentation
-(Will be Updated Soon)
-Documentation
+### Documentation
+- (Will be Updated Soon)
 
-Installation
-git clone https://github.com/1FarZ1/WorkShop-Unity.git cd WorkShop-Unity 
 
-Feedback
-If you have any feedback, please reach out to us at f_bekkouche@estin.dz
+## Installation
+- git clone https://github.com/1FarZ1/WorkShop-Unity.git 
+- cd WorkShop-Unity/Scens
+- And Open the Scenes Main Menu or FullGame 
 
-Acknowledgements
-FAQ
-Can We Play it ?
- Our Workshop Game is Ready to Play and Only Thing That is Left is To Upload into Itch io so Stay Tuned and we will Update You with The Last Informations About its Status
+## Feedback
+- If you have any feedback, please reach out to us at f_bekkouche@estin.dz
 
-License
-MIT
+## Acknowledgements
+### FAQ
+- Can We Play it ?
+  -Our Workshop Game is Ready to Play and Only Thing That is Left is To Upload into Itch io so Stay Tuned and we will Update You with The Last Informations About its Status
 
-Support
-For support, email f_bekkouche@estin.dz
+## License
+- MIT
 
-Badges
-Add badges from somewhere like: shields.io
+## Support
+- For support, email f_bekkouche@estin.dz
 
-MIT LicenseGPLv3 LicenseAGPL License
+## Badges
+- Add badges from somewhere like: shields.io
 
-Features
-Light/dark mode toggle
-Live previews
-Fullscreen mode
-Cross platform
+ - MIT LicenseGPLv3 LicenseAGPL License
+
