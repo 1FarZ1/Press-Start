@@ -8,41 +8,35 @@ Screenshots
 ![image](https://cdn.discordapp.com/attachments/655813037483360276/1075946365265395793/game_1.png)
 
 Authors
-@1FarZ1
-Contributing
-Contributions are always welcome!
+- @1FarZ1
+- Contributing
+- Contributions are always welcome!
 
-Documentation
-(Will be Updated Soon)
-Documentation
+### Documentation
+- (Will be Updated Soon)
 
-Installation
-git clone https://github.com/1FarZ1/quizzler.git cd quizzler flutter packages get flutter run
 
-Feedback
-If you have any feedback, please reach out to us at f_bekkouche@estin.dz
+## Installation
+- git clone https://github.com/1FarZ1/WorkShop-Unity.git 
+- cd WorkShop-Unity/Scens
+- And Open the Scenes Main Menu or FullGame 
 
-Acknowledgements
-FAQ
-Why install Quizzler
-Quizzler is simple,LightWeight app that give the Users a basic questions on differenet fields and reward them with points and get more Prizes according to their points
+## Feedback
+- If you have any feedback, please reach out to us at f_bekkouche@estin.dz
 
-Is Quizzler for Everybody ?
-Quizzler cover the majority of people with low or high level, the more Questions You get the more Diffucult it Becomes
+## Acknowledgements
+### FAQ
+- Can We Play it ?
+  -Our Workshop Game is Ready to Play and Only Thing That is Left is To Upload into Itch io so Stay Tuned and we will Update You with The Last Informations About its Status
 
-License
-MIT
+## License
+- MIT
 
-Support
-For support, email f_bekkouche@estin.dz
+## Support
+- For support, email f_bekkouche@estin.dz
 
-Badges
-Add badges from somewhere like: shields.io
+## Badges
+- Add badges from somewhere like: shields.io
 
-MIT LicenseGPLv3 LicenseAGPL License
+ - MIT LicenseGPLv3 LicenseAGPL License
 
-Features
-Light/dark mode toggle
-Live previews
-Fullscreen mode
-Cross platform
