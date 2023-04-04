@@ -996,7 +996,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1694269019}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: MenuManager, Assembly-CSharp
         m_MethodName: Settings
         m_Mode: 1
@@ -1130,7 +1130,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1694269019}
+      - m_Target: {fileID: 1694269022}
         m_TargetAssemblyTypeName: MenuManager, Assembly-CSharp
         m_MethodName: Play
         m_Mode: 5
@@ -1869,7 +1869,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1694269019}
+      - m_Target: {fileID: 1694269022}
         m_TargetAssemblyTypeName: MenuManager, Assembly-CSharp
         m_MethodName: Exit
         m_Mode: 1
@@ -2291,7 +2291,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1694269019}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: MenuManager, Assembly-CSharp
         m_MethodName: back
         m_Mode: 1
@@ -3037,6 +3037,7 @@ GameObject:
   - component: {fileID: 1320965818}
   - component: {fileID: 1320965817}
   - component: {fileID: 1320965816}
+  - component: {fileID: 1320965819}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -3110,6 +3111,39 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1320965819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1320965815}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
 --- !u!1 &1470555435
 GameObject:
   m_ObjectHideFlags: 0
@@ -3651,8 +3685,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1694269021}
-  - component: {fileID: 1694269019}
   - component: {fileID: 1694269020}
+  - component: {fileID: 1694269022}
   m_Layer: 0
   m_Name: MenuManager
   m_TagString: Untagged
@@ -3660,26 +3694,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1694269019
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1694269018}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 91eba81cc136a8c44b60a6956332c454, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Fade: {fileID: 1793359310}
-  disableOBJ:
-  - {fileID: 717402737}
-  - {fileID: 1999627614}
-  - {fileID: 305787171}
-  - {fileID: 568457849}
-  - {fileID: 292045184}
-  settings: {fileID: 1292720012}
 --- !u!222 &1694269020
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3708,6 +3722,26 @@ RectTransform:
   m_AnchoredPosition: {x: 163.42462, y: -18.724133}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1694269022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1694269018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91eba81cc136a8c44b60a6956332c454, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Fade: {fileID: 1793359310}
+  disableOBJ:
+  - {fileID: 717402737}
+  - {fileID: 1999627614}
+  - {fileID: 305787171}
+  - {fileID: 568457849}
+  - {fileID: 292045184}
+  settings: {fileID: 1292720012}
 --- !u!1 &1703974558
 GameObject:
   m_ObjectHideFlags: 0
@@ -4351,6 +4385,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
   m_HorizontalAxis: Horizontal
   m_VerticalAxis: Vertical
   m_SubmitButton: Submit
@@ -4792,7 +4827,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2084607499}
-  - component: {fileID: 2084607498}
+  - component: {fileID: 2084607500}
   m_Layer: 0
   m_Name: Audio Manager
   m_TagString: Untagged
@@ -4800,38 +4835,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &2084607498
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2084607497}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 138e26a50f3bcd3499c7d0935dc5579c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  musicSounds:
-  - name: theme
-    clip: {fileID: 8300000, guid: 69fa8b97ef796d94bbb02051c6608c09, type: 3}
-  sfxSounds:
-  - name: dooropening
-    clip: {fileID: 8300000, guid: fcde343fd91531f4099450ac5706d1c2, type: 3}
-  - name: jump
-    clip: {fileID: 8300000, guid: 4d632cf5fc346b244a54eaadaca1ca88, type: 3}
-  - name: coin
-    clip: {fileID: 8300000, guid: f636947088689b04e80b213fb9699e78, type: 3}
-  - name: click
-    clip: {fileID: 8300000, guid: dd5ca38d3d2632a44bfb8586f82d2877, type: 3}
-  - name: gameStart
-    clip: {fileID: 8300000, guid: 1688b8bbbef0c4c40b953a32d175ae9e, type: 3}
-  - name: gameOver
-    clip: {fileID: 8300000, guid: 67529fa3a967ac34cb9a8fd1c8e87075, type: 3}
-  - name: missioncompleted
-    clip: {fileID: 8300000, guid: 1688b8bbbef0c4c40b953a32d175ae9e, type: 3}
-  musicSource: {fileID: 503872859}
-  sfxSource: {fileID: 182981118}
 --- !u!4 &2084607499
 Transform:
   m_ObjectHideFlags: 0
@@ -4849,6 +4852,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2084607500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084607497}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3caafde5599c2c043af787fc9f649022, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  musicSounds: []
+  sfxSounds: []
+  musicSource: {fileID: 0}
+  sfxSource: {fileID: 0}
 --- !u!1 &2092099906
 GameObject:
   m_ObjectHideFlags: 0

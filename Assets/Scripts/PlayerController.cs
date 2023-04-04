@@ -36,7 +36,7 @@ public class PlayerController : MonoBehaviour
     private void Start()
     {
         playerCharacter = GetComponent<CharacterController>();
-        AudioManager.Instance.PlaySFX("Press Start");
+        // AudioManager.Instance.PlaySFX("Press Start");
     }
     private void Update()
     {
